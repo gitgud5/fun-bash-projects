@@ -20,7 +20,7 @@ if [ $UID -ne 0 ]; then
 fi
 
 # this is the array of packages that are going to be installed
-PACKAGES=( "vlc" "steam" )
+PACKAGES=( "vlc" "steam" "ubuntu-restricted-extras" "nmap"  )
 
 # Got to test this first, on how can I make it so that it works just fine. Also add some messages here too
 # apt-get update && apt-get upgrade
